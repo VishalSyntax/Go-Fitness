@@ -1,2 +1,2 @@
 # Go-Fitness
-this is a Front end(used, html,css,bootstrap,JS) website will be a fitness hub featuring workout plans, health tips,. nutrition gudes., and progres tracking to help users stay motivated and achieve their fitness goals
+This is a Frontend(used, html,css,bootstrap,JS) technology based project and it is about fitness hub featuring workout plans, health tips, nutrition guides, and progress tracking to help users stay motivated and achieve their fitness goals
