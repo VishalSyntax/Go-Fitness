@@ -1,6 +1,60 @@
-/* .table {
-  padding: 40px;
-  margin: 40px;
 
-} */
+  /* Body background image */
+  body {
+    background-image: url('/images/manas_images/gym_2 (2).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Glass-style transparent tables */
+  table {
+    background: rgba(255, 255, 255, 0.1); /* translucent white */
+    backdrop-filter: blur(8px); /* glass blur */
+    -webkit-backdrop-filter: blur(8px); /* Safari support */
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+
+  th, td {
+    background-color: rgba(255, 255, 255, 0.05); /* even more transparent */
+    /* text-shadow: 1px 1px 2px black; */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .table-bordered th,
+  .table-bordered td {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 30px;
+  }
+
+  p {
+    text-shadow: 1px 1px 2px black;
+  }
+  .table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
 
