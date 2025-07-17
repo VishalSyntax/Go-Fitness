@@ -1,0 +1,123 @@
+/* Enhanced Table Styling */
+.table {
+  margin: 30px auto;
+  max-width: 95%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.table thead th {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 15px;
+  border: none;
+  text-align: center;
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.table tbody th {
+  background: rgba(255, 255, 255, 0.15);
+  font-weight: 600;
+  padding: 12px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table tbody td {
+  padding: 12px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Workout Section Headers */
+section h1 {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+  margin: 40px auto 20px;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  max-width: 90%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table {
+    font-size: 12px;
+    max-width: 98%;
+  }
+  
+  .table thead th,
+  .table tbody td,
+  .table tbody th {
+    padding: 8px 5px;
+  }
+  
+  section h1 {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+}
+
+/* Animation for table appearance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeInUp 0.6s ease-out;
+}
+/* Table Container */
+.table-container {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+/* Workout Notes */
+.workout-note {
+  background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+  color: #2d3436;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 25px;
+  text-align: center;
+  font-weight: 600;
+  max-width: 80%;
+  box-shadow: 0 4px 15px rgba(255, 234, 167, 0.4);
+}
+
+/* Exercise table specific styling */
+.exercise-table tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.exercise-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.15);
+}
