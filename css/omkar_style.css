@@ -1,0 +1,27 @@
+section h1 {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 20px;
+  margin: 40px auto 20px;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  max-width: 90%;
+}
+    h2, h3 {
+      color: #007b83;
+      font-weight: bold;
+    }
+    .tip-section {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+    }
+        .tip-img {
+      max-width: 100%;
+      border-radius: 8px;
+      height: auto;
+    }
