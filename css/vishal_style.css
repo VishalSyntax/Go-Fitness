@@ -74,3 +74,54 @@
 }
 
 
+/* Carousel Styling */
+.carousel-item {
+  height: 70vh;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.7);
+}
+
+.carousel-caption {
+  bottom: 20%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width: 80%;
+  margin: 0 auto;
+  animation: fadeIn 1s;
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+/* Carousel Animation */
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.carousel-item.active img {
+  animation: zoomIn 8s forwards;
+}
+
+/* Footer Marquee */
+.footer-marquee {
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  color: #fff;
+}
