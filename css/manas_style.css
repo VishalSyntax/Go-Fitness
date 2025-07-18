@@ -5,12 +5,12 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
   color: white;
 }
 
 .table thead th {
-  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+   background: linear-gradient(135deg, #ff6b6b, #ee5a24); 
   color: white;
   font-weight: 600;
   text-transform: uppercase;
@@ -32,13 +32,13 @@
 }
 
 .table tbody tr:hover {
-  background: rgba(255, 255, 255, 0.2);
+   background: rgba(255, 255, 255, 0.2); 
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .table tbody th {
-  background: rgba(255, 255, 255, 0.15);
+   background: rgba(255, 255, 255, 0.15); 
   font-weight: 600;
   padding: 12px 15px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -53,7 +53,7 @@
 
 /* Section Headers */
 section h1 {
-  /* background: linear-gradient(135deg, #667eea, #764ba2); */
+ background: linear-gradient(135deg, #667eea, #764ba2); 
   color: white;
   padding: 20px;
   margin: 40px auto 20px;
@@ -62,7 +62,7 @@ section h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  /* box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3); */
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3); 
   max-width: 90%;
 }
 
