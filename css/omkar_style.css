@@ -14,6 +14,7 @@ section h1 {
     h2, h3 {
       color: #007b83;
       font-weight: bold;
+      margin-top: 30px;
     }
     .tip-section {
       margin-bottom: 40px;
@@ -24,4 +25,11 @@ section h1 {
       max-width: 100%;
       border-radius: 8px;
       height: auto;
+       box-shadow: 4px 4px 6px black;
+      margin-bottom: 20px;
     }
+       .tip-img.hover_effect:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.911);
+}
