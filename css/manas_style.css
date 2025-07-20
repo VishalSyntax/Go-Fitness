@@ -5,12 +5,12 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
-   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
 }
 
 .table thead th {
-   background: linear-gradient(135deg, #ff6b6b, #ee5a24); 
+  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
   color: white;
   font-weight: 600;
   text-transform: uppercase;
@@ -19,26 +19,28 @@
   border: none;
   text-align: center;
 }
-.table tbody tt:nth-child(even) {
-    background-color: #f9f9f9;
-  }
 
-  .table tbody tt:nth-child(odd) {
-    background-color: #ffffff;
-  }
+.table tbody tt:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tt:nth-child(odd) {
+  background-color: #ffffff;
+}
+
 .table tbody tt {
   transition: all 0.3s ease;
   background: rgba(6, 6, 6, 0.658);
 }
 
 .table tbody tr:hover {
-   background: rgba(255, 255, 255, 0.2); 
+  background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .table tbody th {
-   background: rgba(255, 255, 255, 0.15); 
+  background: rgba(255, 255, 255, 0.15);
   font-weight: 600;
   padding: 12px 15px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -53,7 +55,7 @@
 
 /* Section Headers */
 section h1 {
- background: linear-gradient(135deg, #667eea, #764ba2); 
+  background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
   padding: 20px;
   margin: 40px auto 20px;
@@ -62,7 +64,7 @@ section h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3); 
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
   max-width: 90%;
 }
 
@@ -72,6 +74,7 @@ section h1 {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -107,7 +110,8 @@ table {
   overflow: hidden;
 }
 
-th, td {
+th,
+td {
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -123,13 +127,13 @@ th, td {
     font-size: 12px;
     max-width: 98%;
   }
-  
+
   .table thead th,
   .table tbody td,
   .table tbody th {
     padding: 8px 5px;
   }
-  
+
   section h1 {
     font-size: 1.2rem;
     padding: 15px;
@@ -183,4 +187,3 @@ footer p {
   font-weight: 500;
   letter-spacing: 1px;
 }
-
