@@ -1,191 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Tips</title>
-     <link href="/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/omkar_style.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/omkar_style.css">
 
-</head>
-<body>
-    
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Go Fitness</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Workouts.html">Workouts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Nutrition.html">Nutrition</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Membership</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trainers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="health_tips.html">Health Tips</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Progress Tracker</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
-                    </li>
-                </ul>
-            </div>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Go Fitness</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page"
+                href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Workouts.html">Workouts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nutrition.html">Nutrition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trainers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="health_tips.html">Health Tips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Progress Tracker</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-     
+
     <div class="container">
-        <h2 class="text-center ">💪 Top 5 Health Tips  💪</h2>
-         <br><br>
-        <!-- Tip 1 -->
-  <div class="row tip-section">
-    <div class="col-md-4">
-      <img src="images/omkar_imges/drinking water.png" alt="Stay Hydrated" class="tip-img hover_effect">
-    </div>
-    <div class="col-md-8">
-      <h5>1. Stay Hydrated</h5>
-      <p>Drinking water boosts energy, improves focus, and enhances workout recovery. Aim for 2–3 liters daily.</p>
-      <button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#tip1Modal">More</button>
-    </div>
-  </div>
+      <h2 class="text-center ">💪 Top 5 Health Tips 💪</h2>
+      <br><br>
+      <!-- Tip 1 -->
+      <div class="row tip-section">
+        <div class="col-md-4">
+          <img src="images/omkar_imges/drinking water.png" alt="Stay Hydrated"
+            class="tip-img hover_effect">
+        </div>
+        <div class="col-md-8">
+          <h5>1. Stay Hydrated</h5>
+          <p>Drinking water boosts energy, improves focus, and enhances workout
+            recovery. Aim for 2–3 liters daily.</p>
+          <button class="btn btn-sm btn-info" data-bs-toggle="modal"
+            data-bs-target="#tip1Modal">More</button>
+        </div>
+      </div>
 
+      <!--Tip 1 Modals -->
+      <div class="modal fade" id="tip1Modal" tabindex="-1"
+        aria-labelledby="tip1Label" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title" id="tip1Label">Tip
+                #1: Stay Hydrated</h5>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Hydration supports energy levels, brain
+              function, and joint lubrication. Always carry a water bottle
+              during workouts.</div>
+            <div class="modal-footer"><button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+      </div>
 
-     <!--Tip 1 Modals -->
-  <div class="modal fade" id="tip1Modal" tabindex="-1" aria-labelledby="tip1Label" aria-hidden="true">
-    <div class="modal-dialog"><div class="modal-content">
-      <div class="modal-header"><h5 class="modal-title" id="tip1Label">Tip #1: Stay Hydrated</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <!-- Tip 2 -->
+      <div class="row tip-section">
+        <div class="col-md-4">
+          <img src="images/omkar_imges/warm up.png" alt="warm-up"
+            class="tip-img hover_effect">
+        </div>
+        <div class="col-md-8">
+          <h5>2. warm-up & Cool Down</h5>
+          <p>Start and end your session with stretches to prevent injuries and
+            improve flexibility.</p>
+          <button class="btn btn-sm btn-info" data-bs-toggle="modal"
+            data-bs-target="#tip2Modal">More</button>
+        </div>
+      </div>
+
+      <!--Tip 2 Modals -->
+      <div class="modal fade" id="tip2Modal" tabindex="-1"
+        aria-labelledby="tip2Label" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title" id="tip2Label">Tip
+                #2: Warm-Up & Cool Down</h5>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Warming up increases blood flow to muscles,
+              reduces injury risk. Cooling down brings your heart rate back to
+              normal and reduces soreness.</div>
+            <div class="modal-footer"><button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+      </div>
+
+      <!-- Tip 3 -->
+      <div class="row tip-section">
+        <div class="col-md-4">
+          <img src="images/omkar_imges/balance diet.png" alt="Balanced Diet"
+            class="tip-img hover_effect">
+        </div>
+        <div class="col-md-8">
+          <h5>3. Balanced Diet</h5>
+          <p>A mix of protein, carbs, and fats fuels your body and supports
+            muscle growth.</p>
+          <button class="btn btn-sm btn-info" data-bs-toggle="modal"
+            data-bs-target="#tip3Modal">More</button>
+        </div>
+      </div>
+
+      <!--Tip 3 Modals -->
+      <div class="modal fade" id="tip3Modal" tabindex="-1"
+        aria-labelledby="tip3Label" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title" id="tip3Label">Tip
+                #3: Balanced Diet</h5>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">A healthy diet enhances strength, immunity,
+              and endurance. Include protein (for repair), carbs (for fuel), and
+              fats (for hormones).</div>
+            <div class="modal-footer"><button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+      </div>
+
+      <!-- Tip 4 -->
+      <div class="row tip-section">
+        <div class="col-md-4">
+          <img src="images/omkar_imges/sleep.png" alt="Sleep Well"
+            class="tip-img hover_effect">
+        </div>
+        <div class="col-md-8">
+          <h5>4. Sleep Well</h5>
+          <p>Muscles grow during rest, not workouts. 7–8 hours of sleep is
+            essential for results.</p>
+          <button class="btn btn-sm btn-info" data-bs-toggle="modal"
+            data-bs-target="#tip4Modal">More</button>
+        </div>
+      </div>
+
+      <!--Tip 4 Modals -->
+      <div class="modal fade" id="tip4Modal" tabindex="-1"
+        aria-labelledby="tip4Label" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title" id="tip4Label">Tip
+                #4: Sleep Well</h5>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Sleep is where recovery happens. It
+              regulates growth hormone and testosterone levels, essential for
+              muscle growth and repair.</div>
+            <div class="modal-footer"><button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+      </div>
+
+      <!-- Tip 5 -->
+      <div class="row tip-section">
+        <div class="col-md-4">
+          <img src="images/omkar_imges/junk food.png" alt="Avoid Junk Food"
+            class="tip-img hover_effect">
+        </div>
+        <div class="col-md-8">
+          <h5>5. Avoid Junk Food</h5>
+          <p>Processed foods slow recovery. Choose clean, nutrient-rich meals to
+            fuel progress.</p>
+          <button class="btn btn-sm btn-info" data-bs-toggle="modal"
+            data-bs-target="#tip10Modal">More</button>
+        </div>
+      </div>
+
+      <!--Tip 5 Modals -->
+      <div class="modal fade" id="tip10Modal" tabindex="-1"
+        aria-labelledby="tip10Label" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content">
+            <div class="modal-header"><h5 class="modal-title"
+                id="tip10Label">Tip #5: Avoid Junk Food</h5>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">Processed and high-sugar foods reduce
+              stamina, cause inflammation, and slow fat loss. Replace chips and
+              soda with fruit and nuts.</div>
+            <div class="modal-footer"><button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+      </div>
+
     </div>
-      <div class="modal-body">Hydration supports energy levels, brain function, and joint lubrication. Always carry a water bottle during workouts.</div>
-      <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-    </div></div>
-  </div>
-
-
-  <!-- Tip 2 -->
-   <div class="row tip-section">
-    <div class="col-md-4">
-        <img src="images/omkar_imges/warm up.png" alt="warm-up" class="tip-img hover_effect">
-    </div>
-    <div class="col-md-8">
-        <h5>2. warm-up & Cool Down</h5>
-          <p>Start and end your session with stretches to prevent injuries and improve flexibility.</p>
-        <button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#tip2Modal">More</button>    
-    </div>
-   </div>
-
-    <!--Tip 2 Modals -->
-      <div class="modal fade" id="tip2Modal" tabindex="-1" aria-labelledby="tip2Label" aria-hidden="true">
-    <div class="modal-dialog"><div class="modal-content">
-      <div class="modal-header"><h5 class="modal-title" id="tip2Label">Tip #2: Warm-Up & Cool Down</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-    </div>
-      <div class="modal-body">Warming up increases blood flow to muscles, reduces injury risk. Cooling down brings your heart rate back to normal and reduces soreness.</div>
-      <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-    </div></div>
-  </div>
-
-
-   <!-- Tip 3 -->
-<div class="row tip-section">
-    <div class="col-md-4">
-        <img src="images/omkar_imges/balance diet.png" alt="Balanced Diet" class="tip-img hover_effect">
-    </div>
-    <div class="col-md-8">
-        <h5>3. Balanced Diet</h5>
-        <p>A mix of protein, carbs, and fats fuels your body and supports muscle growth.</p>
-      <button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#tip3Modal">More</button>
-    </div>
-</div>
-
-<!--Tip 3 Modals -->
-   <div class="modal fade" id="tip3Modal" tabindex="-1" aria-labelledby="tip3Label" aria-hidden="true">
-    <div class="modal-dialog"><div class="modal-content">
-      <div class="modal-header"><h5 class="modal-title" id="tip3Label">Tip #3: Balanced Diet</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-    </div>
-      <div class="modal-body">A healthy diet enhances strength, immunity, and endurance. Include protein (for repair), carbs (for fuel), and fats (for hormones).</div>
-      <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-    </div></div>
-  </div>
-
-
-   <!-- Tip 4 -->
-     <div class="row tip-section">
-    <div class="col-md-4">
-      <img src="images/omkar_imges/sleep.png" alt="Sleep Well" class="tip-img hover_effect">
-    </div>
-    <div class="col-md-8">
-     <h5>4. Sleep Well</h5>
-      <p>Muscles grow during rest, not workouts. 7–8 hours of sleep is essential for results.</p>
-      <button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#tip4Modal">More</button>
-    </div>
-  </div>
-
-    <!--Tip 4 Modals -->
-    <div class="modal fade" id="tip4Modal" tabindex="-1" aria-labelledby="tip4Label" aria-hidden="true">
-    <div class="modal-dialog"><div class="modal-content">
-      <div class="modal-header"><h5 class="modal-title" id="tip4Label">Tip #4: Sleep Well</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-    </div>
-      <div class="modal-body">Sleep is where recovery happens. It regulates growth hormone and testosterone levels, essential for muscle growth and repair.</div>
-      <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-    </div></div>
-  </div>
-
-
-  <!-- Tip 5 -->
-    <div class="row tip-section">
-    <div class="col-md-4">
-      <img src="images/omkar_imges/junk food.png" alt="Avoid Junk Food" class="tip-img hover_effect">
-    </div>
-    <div class="col-md-8">
-      <h5>5. Avoid Junk Food</h5>
-      <p>Processed foods slow recovery. Choose clean, nutrient-rich meals to fuel progress.</p>
-      <button class="btn btn-sm btn-info" data-bs-toggle="modal" data-bs-target="#tip10Modal">More</button>
-    </div>
-  </div>
-
-
-   <!--Tip 5 Modals -->
-     <div class="modal fade" id="tip10Modal" tabindex="-1" aria-labelledby="tip10Label" aria-hidden="true">
-    <div class="modal-dialog"><div class="modal-content">
-      <div class="modal-header"><h5 class="modal-title" id="tip10Label">Tip #5: Avoid Junk Food</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-    </div>
-      <div class="modal-body">Processed and high-sugar foods reduce stamina, cause inflammation, and slow fat loss. Replace chips and soda with fruit and nuts.</div>
-      <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-    </div></div>
-  </div>
-
-    </div>
-    <br> 
-   <footer class="bg-dark text-white text-center p-3">
-        <p>&copy; 2025 Go Fitness. All Rights Reserved.</p>
+    <br>
+    <footer class="bg-dark text-white text-center p-3">
+      <p>&copy; 2025 Go Fitness. All Rights Reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
-  
-  
-</body>
+
+  </body>
 </html>
