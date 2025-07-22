@@ -1,62 +1,35 @@
-/* Enhanced Table Styling */
-.table {
-  margin: 30px auto;
-  max-width: 95%;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  overflow: hidden;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-}
 
-.table thead th {
-  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
-  color: white;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 15px;
-  border: none;
-  text-align: center;
-}
-
-.table tbody tt:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-.table tbody tt:nth-child(odd) {
-  background-color: #ffffff;
-}
-
-.table tbody tt {
+  /* Transparent table background */
+  .table {
+    background-color: transparent !important;}
+   tbody tr:hover {
+  background-color: #090808; /* Light grey background on hover */
+  transition: background-color 0.3s ease;
+  cursor: pointer;
   transition: all 0.3s ease;
-  background: rgba(6, 6, 6, 0.658);
-}
+   transform: translateY(-10px);
+  }
 
-.table tbody tr:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
+  /* Transparent rows and cells */
+  .table thead th,
+  .table tbody td,
+  .table tbody th {
+    background-color: transparent !important;
+    color: #e4dede; /* text readable */
+    border-color: rgba(0, 0, 0, 0.2); /* Light border */
+  }
 
-.table tbody th {
-  background: rgba(255, 255, 255, 0.15);
-  font-weight: 600;
-  padding: 12px 15px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
+  /* Optional: make heading row slightly darker */
+  .table thead tr {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
 
-.table tbody td {
-  padding: 12px 15px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  text-align: center;
-  font-weight: 500;
-}
+
 
 /* Section Headers */
 section h1 {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: white;
+  background: linear-gradient(135deg, #eddf8f, #dbda8c);
+  color: rgb(14, 14, 14);
   padding: 20px;
   margin: 40px auto 20px;
   border-radius: 50px;
@@ -166,7 +139,7 @@ td {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
+  color: rgb(247, 236, 236);
   transition: all 0.3s ease;
 }
 
@@ -187,3 +160,12 @@ footer p {
   font-weight: 500;
   letter-spacing: 1px;
 }
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin: 60;
+}
+
+
