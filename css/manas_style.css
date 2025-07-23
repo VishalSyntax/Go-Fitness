@@ -20,12 +20,9 @@
   }
 
   /* Optional: make heading row slightly darker */
-  .table thead tr {
+   .table thead tr {
     background-color: rgba(0, 0, 0, 0.05) !important;
   }
-
-
-
 /* Section Headers */
 section h1 {
   background: linear-gradient(135deg, #eddf8f, #dbda8c);
@@ -39,6 +36,7 @@ section h1 {
   letter-spacing: 2px;
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
   max-width: 90%;
+   text-shadow: 3px 4px 4px red;
 }
 
 /* Animation for table appearance */
@@ -168,5 +166,7 @@ img:hover {
   margin: 60;
   box-shadow: 8px 8px 20px rgba(230, 219, 219, 0.87);
 }
+ 
+
 
 
