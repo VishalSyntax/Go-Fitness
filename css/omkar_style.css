@@ -25,11 +25,31 @@ section h1 {
       max-width: 100%;
       border-radius: 8px;
       height: auto;
-       box-shadow: 4px 4px 6px black;
+       box-shadow: 4px 4px 6px white;
       margin-bottom: 20px;
-    }
-    .tip-img.hover_effect:hover {
+     }
+     .tip-img.hover_effect:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.911);
+  box-shadow: 0 8px 20px white;
+   cursor: pointer;
+}  
+body{
+  
+  background-image: url('../images/manas_images/gym_2 (2).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* Hide <ol> on small screens */
+@media (max-width: 576px) {
+  .mobile-hide {
+    display: none;
+  }
 }
