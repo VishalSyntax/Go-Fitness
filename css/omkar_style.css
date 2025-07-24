@@ -83,3 +83,30 @@ section {
     padding: 15px;
   }
 }
+
+  /* Transparent table background */
+  .table {
+    background-color: transparent !important;}
+   tbody tr:hover {
+  background-color: #090808; /* Light grey background on hover */
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
+   transform: translateY(-10px);
+  }
+
+  /* Transparent rows and cells */
+  .table thead th,
+  .table tbody td,
+  .table tbody th {
+    background-color: transparent !important;
+    color: #e4dede; /* text readable */
+    border-color: rgba(0, 0, 0, 0.2); /* Light border */
+  }
+
+  /* Optional: make heading row slightly darker */
+   .table thead tr {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+
+
