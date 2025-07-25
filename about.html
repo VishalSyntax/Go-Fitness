@@ -6,6 +6,37 @@
     <title>About - Go Fitness</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/vishal_style.css">
+
+    <style>
+    body {
+      background-image: url('../images/manas_images/gym_2 (2).png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: rgba(0, 0, 0, 0.6);
+      background-blend-mode: overlay;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .breadcrumb-item a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .breadcrumb-item.active {
+      color: #ccc;
+    }
+    .btn {
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .gap-3 {
+      gap: 1rem !important;
+    }
+  </style>
+
+
+
 </head>
 <body>
     <!-- Navbar -->
@@ -20,10 +51,10 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="Workouts.html">Workouts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Nutrition</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Nutrition.html">Nutrition</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Trainers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Health Tips</a></li>
+                    <li class="nav-item"><a class="nav-link" href="health_tips.html">Health Tips</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Progress Tracker</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
@@ -45,17 +76,46 @@
     <!-- Main Content -->
     <main class="container my-5">
         <section class="text-center mb-5 fade-in">
-            <h1 class="display-4">Our Story</h1>
+            <h1 class="display-5">Our Story</h1>
             <p class="lead">Go Fitness was founded in 2025 with a simple mission: to create a supportive and motivating environment for everyone to achieve their fitness goals.</p>
+            <p>From humble beginnings as a small community gym, we've grown into a comprehensive fitness center that serves thousands of members. Our journey started with a vision to make fitness accessible, enjoyable, and sustainable for people of all fitness levels.</p>
         </section>
 
-        <section class="row align-items-center slide-in">
+        <section class="row align-items-center slide-in mb-5">
             <div class="col-md-6">
                 <h2>Our Philosophy</h2>
-                <p>We believe that fitness is a journey, not a destination. Our holistic approach combines physical training, nutritional guidance, and mental well-being to help you build a sustainable healthy lifestyle. We are committed to providing the best equipment, expert trainers, and a welcoming community.</p>
+                <p>We believe that fitness is a journey, not a destination. Our holistic approach combines physical training, nutritional guidance, and mental well-being to help you build a sustainable healthy lifestyle.</p>
+                <p>We are committed to providing the best equipment, expert trainers, and a welcoming community. Every member is unique, and we tailor our approach to meet individual needs and goals.</p>
+                <p>Our core values include integrity, excellence, community support, and continuous improvement. We strive to create an environment where everyone feels comfortable and motivated to push their limits.</p>
             </div>
             <div class="col-md-6">
-                <img src="images/gym-inter.png" class="img-fluid rounded" alt="Gym interior" height="350" width="450">
+                <img src="images/gym-inter.png" class="img-fluid p-3 mx-auto"  alt="Gym interior" height="350" width="450">
+            </div>
+        </section>
+
+        <section class="row slide-in mb-5">
+            <div class="col-md-4 text-center mb-4">
+                <h3>🏋️‍♂️ Expert Training</h3>
+                <p>Our certified trainers bring years of experience and passion to help you achieve your fitness goals safely and effectively.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <h3>🥗 Nutrition Support</h3>
+                <p>Comprehensive nutrition guidance and meal planning to complement your workout routine and maximize results.</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <h3>🤝 Community Focus</h3>
+                <p>Join a supportive community of like-minded individuals who motivate and inspire each other every day.</p>
+            </div>
+        </section>
+
+        <section class="text-center slide-in">
+            <h2 class="mb-4">Connect With Us</h2>
+            <p class="mb-4">Follow us on social media for daily motivation, workout tips, and community updates!</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-primary btn-lg">📘 Facebook</a>
+                <a href="#" class="btn btn-info btn-lg">🐦 Twitter</a>
+                <a href="#" class="btn btn-danger btn-lg">📸 Instagram</a>
+                <a href="#" class="btn btn-dark btn-lg">💼 LinkedIn</a>
             </div>
         </section>
     </main>
