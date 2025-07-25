@@ -1,127 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Membership - Go Fitness</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/manas_style.css">
-    
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Go Fitness</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="workouts.html">Workouts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="nutrition.html">Nutrition</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="membership.html">Membership</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="health-tips.html">Health Tips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="progress.html">Progress Tracker</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Membership - Go Fitness</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/manas_style.css">
 
-    <!-- Breadcrumb -->
-    <div class="container mt-4">
-        <nav aria-label="breadcrumb">
-            <!-- <ol class="breadcrumb">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Go Fitness</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link"
+                                href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="workouts.html">Workouts</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="nutrition.html">Nutrition</a></li>
+                        <li class="nav-item"><a class="nav-link active"
+                                aria-current="page"
+                                href="membership.html">Membership</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li> -->
+                        <li class="nav-item"><a class="nav-link"
+                                href="health-tips.html">Health Tips</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="progress.html">Progress Tracker</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Breadcrumb -->
+        <div class="container mt-4">
+            <nav aria-label="breadcrumb">
+                <!-- <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item text-danger active" aria-current="page">Membership</li>
             </ol> -->
-        </nav>
-    </div>
-
-    <!-- Main Content -->
-    <main class="container my-5">
-        <h1 class="text-center mb-5 display-4 fade-in">Membership Plans</h1>
-        <div class="text-center mb-4">
-            <div class="btn-group" role="group" aria-label="Membership term">
-                <button type="button" class="btn btn-outline-primary active"  id="monthlyBtn">Monthly</button>
-                <button type="button" class="btn btn-outline-primary" id="yearlyBtn">Yearly</button>
-            </div>
+            </nav>
         </div>
 
-        <div class="row slide-in">
-            <!-- Basic Plan -->
-            <div class="col-md-4 mb-4">
-                <div class="card text-center h-100">
-                    <div class="card-header">
-                        <h3>Basic</h3>
+        <!-- Main Content -->
+        <main class="container my-5">
+            <h1 class="text-center mb-5 display-4 fade-in">Membership Plans</h1>
+            <div class="text-center mb-4">
+                <div class="btn-group" role="group"
+                    aria-label="Membership term">
+                    <button type="button" class="btn btn-outline-primary active"
+                        id="monthlyBtn">Monthly</button>
+                    <button type="button" class="btn btn-outline-primary"
+                        id="yearlyBtn">Yearly</button>
+                </div>
+            </div>
+
+            <div class="row slide-in">
+                <!-- Basic Plan -->
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header">
+                            <h3>Basic</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title price-basic">₹899/month</h4>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Access to all equipment</li>
+                                <li>Locker room access</li>
+                                <li>24/7 gym access</li>
+                            </ul>
+                            <a href="contact.html"
+                                class="btn btn-lg btn-outline-primary">Contact
+                                Us</a>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h4 class="card-title price-basic">₹899/month</h4>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>Access to all equipment</li>
-                            <li>Locker room access</li>
-                            <li>24/7 gym access</li>
-                        </ul>
-                        <a href="contact.html" class="btn btn-lg btn-outline-primary">Contact Us</a>
+                </div>
+                <!-- Pro Plan -->
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header text-white">
+                            <h3>Pro</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title price-pro">₹1599/month</h4>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>All Basic features</li>
+                                <li>Access to group classes</li>
+                                <li>1 personal training session/month</li>
+                            </ul>
+                            <a href="contact.html"
+                                class="btn btn-lg  btn-outline-primary">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Premium Plan -->
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header">
+                            <h3>Premium</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4
+                                class="card-title price-premium">₹2099/month</h4>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>All Pro features</li>
+                                <li>Unlimited personal training</li>
+                                <li>Smoothie bar discount</li>
+                            </ul>
+                            <a href="contact.html"
+                                class="btn btn-lg btn-outline-primary">Contact
+                                Us</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Pro Plan -->
-            <div class="col-md-4 mb-4">
-                <div class="card text-center h-100">
-                    <div class="card-header text-white">
-                        <h3>Pro</h3>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title price-pro">₹1599/month</h4>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>All Basic features</li>
-                            <li>Access to group classes</li>
-                            <li>1 personal training session/month</li>
-                        </ul>
-                        <a href="contact.html" class="btn btn-lg  btn-outline-primary">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Premium Plan -->
-            <div class="col-md-4 mb-4">
-                <div class="card text-center h-100">
-                    <div class="card-header">
-                        <h3>Premium</h3>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title price-premium">₹2099/month</h4>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>All Pro features</li>
-                            <li>Unlimited personal training</li>
-                            <li>Smoothie bar discount</li>
-                        </ul>
-                        <a href="contact.html" class="btn btn-lg btn-outline-primary">Contact Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="text-center mt-5 slide-in">
-            <h3>Ready to Start Your Fitness Journey?</h3>
-            <p class="lead">Contact us today to discuss membership options and get started!</p>
-            <a href="contact.html" class="btn btn-success btn-lg">Get Started Today</a>
-        </div>
-    </main>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-3 mt-5">
-        <p>&copy; 2025 Go Fitness. All Rights Reserved.</p>
-    </footer>
+            <div class="text-center mt-5 slide-in">
+                <h3>Ready to Start Your Fitness Journey?</h3>
+                <p class="lead">Contact us today to discuss membership options
+                    and get started!</p>
+                <a href="contact.html" class="btn btn-success btn-lg">Get
+                    Started Today</a>
+            </div>
+        </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center p-3 mt-5">
+            <p>&copy; 2025 Go Fitness. All Rights Reserved.</p>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
         const monthlyBtn = document.getElementById('monthlyBtn');
         const yearlyBtn = document.getElementById('yearlyBtn');
         const priceBasic = document.querySelector('.price-basic');
@@ -144,5 +172,5 @@
             pricePremium.textContent = '₹20999/year';
         });
     </script>
-</body>
+    </body>
 </html>
