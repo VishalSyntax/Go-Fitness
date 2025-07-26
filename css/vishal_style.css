@@ -151,8 +151,15 @@ h2 {
       text-shadow: 8px 8px 8px rgb(25, 24, 24);
     }
 
+    h2.sh2 {
+      color: #e4761c;
+      font-weight: bold;
+      margin-top: 30px;
+      text-shadow: 8px 8px 8px rgb(201, 199, 199);
+    }
+
     h3 {
-      color: #f0d617;
+      color: #e4761c;
       font-weight: bold;
       margin-top: 30px;
       text-shadow: 8px 8px 8px rgb(25, 24, 24);

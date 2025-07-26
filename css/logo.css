@@ -43,3 +43,8 @@ button:hover .hover-text {
     width: 100%;
     filter: drop-shadow(0 0 23px #00c3ff);
 }
+
+a.slogo {
+    color: #00e6e6;
+    text-decoration: none;
+}
