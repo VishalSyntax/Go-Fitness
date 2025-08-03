@@ -1,0 +1,113 @@
+/* iOS/WebKit Responsive Fixes */
+
+/* Fix viewport and zoom issues */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Fix background-attachment: fixed on iOS */
+body {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* Replace background-attachment: fixed with scroll for iOS */
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-attachment: scroll !important;
+  }
+  
+  .hero-section {
+    background-attachment: scroll !important;
+  }
+}
+
+/* Fix flexbox issues on iOS */
+.d-flex, .row, .navbar-nav {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* Fix button and form input styling on iOS */
+button, input, select, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+/* Fix carousel height on mobile */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 50vh;
+    min-height: 300px;
+  }
+  
+  .carousel-caption {
+    bottom: 10%;
+    padding: 10px;
+    max-width: 95%;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+  
+  .carousel-caption .lead {
+    font-size: 0.9rem;
+  }
+}
+
+/* Fix modal issues on iOS */
+.modal {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Fix iframe responsiveness */
+iframe {
+  max-width: 100%;
+  height: auto;
+  min-height: 250px;
+}
+
+/* Fix card hover effects on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .card:hover {
+    transform: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  img:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+/* Fix navbar collapse on iOS */
+.navbar-collapse {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Fix form validation styling */
+.form-control {
+  -webkit-appearance: none;
+  background-clip: padding-box;
+}
+
+/* Fix sticky positioning */
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* Prevent horizontal scroll */
+body, html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.container-fluid, .container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
