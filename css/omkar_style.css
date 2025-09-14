@@ -115,11 +115,7 @@ section {
     font-weight: 700;
     font-size: 1.8rem;
 }
-.card {
-  width: 80%; /* makes it responsive within the container */
-  max-width: 500px; /* optional: prevents it from getting too wide */
-  margin: 0 auto; /* centers it horizontally */
-}
+
 
 
 
